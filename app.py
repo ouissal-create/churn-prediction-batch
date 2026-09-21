@@ -35,7 +35,7 @@ COLORS = {
     'Faible': '#38bdf8'   # Bleu Ciel (Sécurité)
 }
 
-MODEL_PATH = Path("rf_model_final.pkl")
+MODEL_PATH = Path("rf_model.pkl")
 SCALER_PATH = Path("scaler.pkl")
 FEATURES_PATH = Path("features_order.pkl")
 GEO_CATEGORIES_PATH = Path("geography_categories.pkl")
