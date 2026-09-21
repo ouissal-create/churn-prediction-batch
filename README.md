@@ -51,3 +51,4 @@ pip install -r requirements.txt
 
 # 4. Lancer l'application
 streamlit run app.py
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cqyvia97hckkbft2sgnokw.streamlit.app)
