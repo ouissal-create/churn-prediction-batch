@@ -21,15 +21,18 @@ Plateforme décisionnelle d'analyse prédictive du risque d'attrition client (Ch
 | **Export Données** | OpenPyXL (Génération Excel stylisée) |
 | **Déploiement** | GitHub + Streamlit Community Cloud |
 
-## Architecture du Projet
+##  Architecture du Projet
+
+```text
 churn-prediction-batch/
-├── app.py                  # Application Streamlit principale (Batch Processing)
+── app.py                  # Application Streamlit principale (Batch Processing)
 ├── requirements.txt        # Dépendances Python
 ├── rf_model.pkl            # Modèle Random Forest entraîné (19 Mo)
-├── scaler.pkl              # StandardScaler pour le preprocessing
+── scaler.pkl              # StandardScaler pour le preprocessing
 ├── features_order.pkl      # Ordre des features pour garantir la cohérence
 ├── Churn_Modelling.csv     # Dataset d'entraînement original (Kaggle)
 └── clients.csv             # Exemple de fichier d'import batch
+```
 
 ##  Installation & Lancement Local
 
